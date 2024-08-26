@@ -11,14 +11,6 @@ The "Prices Generator" plugin for WooCommerce allows you to automatically genera
 - **Exclusion Management:** Supports excluding specific products from price generation.
 - **Settings Page:** Offers a settings page to configure cost parameters and manage excluded products.
 
-## Installation:
-
-1. **Upload Plugin Files:**
-   - Upload the `prices-generator` folder to the `/wp-content/plugins/` directory.
-
-2. **Activate the Plugin:**
-   - Go to the WordPress admin area, navigate to Plugins, and activate the "Prices Generator" plugin.
-
 ## Usage:
 
 ### 1. Configuring Settings
@@ -70,19 +62,6 @@ The "Prices Generator" plugin for WooCommerce allows you to automatically genera
 
 - **Styling:**
   - Customize the appearance of the settings page by modifying the CSS in the `pricesgenerator_settings_page` function.
-
-## Developer Information:
-
-- **Filter Hooks:**
-  - `bulk_actions-edit-product`: Add custom bulk actions.
-  - `handle_bulk_actions-edit-product`: Handle custom bulk actions.
-
-- **Action Hooks:**
-  - `admin_menu`: Add a settings page.
-  - `admin_enqueue_scripts`: Enqueue admin scripts and styles.
-
-- **AJAX Actions:**
-  - `codecruz_product_price`: Handle AJAX requests for individual product price generation.
 
 ## Changelog:
 
